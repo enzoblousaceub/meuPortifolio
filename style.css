@@ -83,3 +83,35 @@
     100% {background-position: 0% 50%;}
   }
   
+  .perfil {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border: 2px solid #333;
+  }
+  
+  .foto-perfil:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .tecnologias {
+    text-align: center;
+  }
+  
+  
